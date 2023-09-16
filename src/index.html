@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/src/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Bookmark</title>
+    </head>
+
+    <body class="font-Poppins">
+        <!-- Header -->
+        <header>
+            <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+                <div class="py-1"><img src="./assets/images/logo-bookmark.svg" alt=""></div>
+                <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue text-xs">
+                    <li class="cursor-pointer uppercase">Features</li>
+                    <li class="cursor-pointer uppercase">Pricing</li>
+                    <li class="cursor-pointer uppercase">Contact</li>
+                    <button type="button" class="bg-bookmark-red text-white rounded px-7 py-3 uppercase">Login</button>
+                </ul>
+                <div class="flex sm:hidden flex-1 justify-end"><i class=" text-2xl fa-solid fa-bars"></i></div>
+            </nav>
+        </header>
+        <!-- Hero -->
+        <section class="relative">
+            <div class="container flex flex-col-reverse lg:flex-row gap-12 mt-14 lg:mt-28">
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h2 class="text-bookmark-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6">A
+                        simple Bookmark Manager</h2>
+                    <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Molestias, exercitationem quasi consectetur eligendi
+                        necessitatibus repudiandae est officiis itaque, nam pariatur mollitia architecto deserunt
+                        provident quo quaerat, reprehenderit magnam debitis enim!</p>
+                    <div class="flex justify-center flex-wrap gap-6">
+                        <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Get it on
+                            Chrome</button>
+                        <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
+                            Firefox</button>
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full" src="./assets/images/hero-bg.png"
+                        alt="">
+                </div>
+            </div>
+            <!-- Rounded Rectangle -->
+            <div
+                class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 right-0 top-32 lg:-bottom-28 lg:-right-36">
+            </div>
+        </section>
+    </body>
+
+</html>
