@@ -5,13 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 .btn {
-  @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+  @apply px-6 py-3 text-sm font-semibold tracking-wider uppercase transition duration-300 rounded-md shadow-md;
 }
 
 .btn-purple {
-  @apply bg-bookmark-purple text-white;
+  @apply text-white bg-note-purple;
 }
 
 .btn-white {
-  @apply bg-bookmark-white;
+  @apply bg-note-white;
 }

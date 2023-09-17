@@ -1,14 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
       colors: {
-        'bookmark-purple': '#5267df',
-        'bookmark-red': '#FA5959',
-        'bookmark-blue': '#242A45',
-        'bookmark-grey': '#9194A2',
-        'bookmark-white': '#f7f7f7',
+        'note-purple': '#5267df',
+        'note-red': '#FA5959',
+        'note-blue': '#242A45',
+        'note-grey': '#9194A2',
+        'note-white': '#f7f7f7',
       },
     },
     fontFamily: {
