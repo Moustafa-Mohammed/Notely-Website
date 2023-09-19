@@ -2,6 +2,7 @@
 const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 const themeToggleBtn = document.getElementById('theme-toggle');
+const copyrightParagraph = document.getElementById('copyright');
 
 function SetInitialTheme() {
   if (localStorage.getItem('color-theme') === 'dark') {
@@ -37,4 +38,6 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+  copyrightParagraph.innerHTML = `Copyrights reserved &copy ${new Date().getFullYear()}`;
 });
