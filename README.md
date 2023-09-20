@@ -1,4 +1,4 @@
-# Notely App
+# Notely Website
 
 The Notely Website is a simple, mobile-responsive website built with HTML5, Tailwind CSS, and JavaScript. It is inspired by a YouTube tutorial and includes additional features like dark mode and additional icons using Font Awesome.
 
