@@ -2,6 +2,10 @@
 
 The Notely Website is a simple, mobile-responsive website built with HTML5, Tailwind CSS, and JavaScript. It is inspired by a YouTube tutorial and includes additional features like dark mode and additional icons using Font Awesome.
 
+## Website Demo
+
+- Go to the [website](https://notely-website.vercel.app/)
+
 ## Features
 
 - **Dark Mode**: Toggle between light and dark mode for comfortable reading.
@@ -23,9 +27,9 @@ There's no need for a complex setup. Just clone the repository, run `npm install
 
 Here are some screenshots of the Notely App in action:
 
-![Light Mode](./src/assets/screenshots/light-mode.png)
+![Light Mode](./assets/screenshots/light-mode.png)
 
-![Dark Mode](./src/assets/screenshots/dark-mode.png)
+![Dark Mode](./assets/screenshots/dark-mode.png)
 
 ## Contributing
 
